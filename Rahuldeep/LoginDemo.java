@@ -29,6 +29,7 @@ public class LoginDemo extends JFrame implements ActionListener {
         panel.add(new JLabel("Password:"));
         panel.add(passwordField);
         panel.add(loginButton);
+        panel.setBackground(Color.lightGray);
 
 
         add(panel, BorderLayout.CENTER);
